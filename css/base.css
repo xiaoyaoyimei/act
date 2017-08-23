@@ -22,9 +22,9 @@ a:hover {
 	clear: both;
 	height: 0;
 }
-.clearfix {
+/* .clearfix {
  *zoom: 1;
-}
+} */
 body {
 	color: #666;
 	font: 12px/150% Arial, Verdana, "microsoft yahei", "宋体";

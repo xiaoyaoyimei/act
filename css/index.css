@@ -545,8 +545,14 @@ transform: scale(0);
 .afour {
 	animation: 1s ease 4.3s normal forwards 1 running note-anim
 }
+
 .icon-uploadsp{
 	background:url(../img/uploadsp.png) scroll no-repeat 0 0;
 	width:44px;
 	height:35px;
 	display:inline-block;}
+
+.none{
+	display: none!important;
+}
+
