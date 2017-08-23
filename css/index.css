@@ -277,26 +277,28 @@ img {
 	position:absolute;
 	left:0;
 }
-.f_bd_wrap dl{
-width:50%;
-}
-.index_4>img{
-	position: absolute;
-   width: 1920px;
-   min-width: 1920px;
-    margin-left: 50%;
-    left: -960px;
-    top: 0
-}
+.index_4{
+	background:url(../img/back_4.png) scroll no-repeat center center}
+	.index_6_bg{
+		background:url(../img/index_6.png) scroll no-repeat center center}
+.index_4_wrap{
+	padding-top:200px;
+	padding-bottom:200px;}
 .index_4_div{
 	position: relative;
-	margin:200px auto;
-	width: 788px;
+	margin-left: auto;
+	margin-right:auto;
+	width: 42%;
 	height: 500px;
 	text-align: center;
-	background-image: url(../img/back_1.png);
+	background:rgba(0, 0, 0, 0.48) none repeat scroll 0 0;
 	overflow: hidden;
+	min-width:320px;
+	border:1px solid #607a83;
 }
+.getyz{
+	display:block;
+	margin-top:15px;}
 .index_4_div>img:nth-of-type(1){
 	float: right;
 	padding-right: 30px;
@@ -329,16 +331,17 @@ width:50%;
 	color: white;
 }
 .index_6_div{
-	width: 65%;
-	min-width: 1200px;
-	margin: 0px auto;
-	margin-top: 200px;
+	
+    width: 1170px;
+	margin-left:  auto;
+margin-right:  auto;
 	overflow: hidden;
 	position: relative;
+	padding-top:190px;
 }
 .index_6_div .index_6_pl{
 	background-image: url(../img/PLQ.png);
-	width: 430px;
+	width: 420px;
 	height: 570px;
 	float: left;
 }
@@ -354,7 +357,7 @@ width:50%;
 	height: 206px;
 	position: relative;
 	background-image: url(../img/PLQX.png);
-	margin-top: 60px;
+	margin-top: 35px;
 }
 .index_6_div .index_6_x .fs{
 	position: absolute;
@@ -375,13 +378,22 @@ width:50%;
 	box-sizing: border-box;
 	padding: 10px;
 }
+.icon-love-outline{
+	 background: url("../img/love-outline.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    left: -10px;
+    position: relative;
+    top: 13px;
+    width: 32px;}
 .index_6_div .index_6_zl{
 	float: right;
 	width: 280px;
 	height: 245px;
 	position: relative;
-	background-image: url(../img/zl.png);
-	margin-top: 40px;
+	background: url(../img/zl.png);
+	margin-top: 20px;
 	margin-right: 20px;
 	position: relative;
 }
@@ -389,26 +401,20 @@ width:50%;
 	position: absolute;
 	top: 50px;
 	left: 30px;
-	width: 220px;
+	width: 250px;
 	overflow: hidden;
 }
-.index_6_div .index_6_zl div p:nth-of-type(2n+1){
+.index_6_div .index_6_zl div p{
 	float: left;
 	width: 50%;
 	font-size: 16px;
 	color:rgb(255,255,255);
 	line-height: 25px;
 	height: 25px;
+	padding-left:5px;
+	padding-right:10px;
 }
-.index_6_div .index_6_zl div p:nth-of-type(2n){
-	float: right;
-	width: 50%;
-	text-align: right;
-	font-size: 16px;
-	color:rgb(255,255,255);
-	line-height: 25px;
-	height: 25px;
-}
+
 #fhs{
 	position: absolute;
 	right: 30px;
@@ -533,3 +539,7 @@ transform: scale(0);
 .afour {
 	animation: 1s ease 4.3s normal forwards 1 running note-anim
 }
+.icon-uploadsp{
+	background:url(../img/uploadsp.png) scroll no-repeat 0 0;
+	width:44px;
+	height:35px;}
