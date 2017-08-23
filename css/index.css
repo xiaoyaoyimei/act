@@ -533,3 +533,6 @@ transform: scale(0);
 .afour {
 	animation: 1s ease 4.3s normal forwards 1 running note-anim
 }
+.none{
+	display: none!important;
+}
