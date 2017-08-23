@@ -6,6 +6,8 @@
 *::before, *::after {
  box-sizing: border-box;
 }
+input{
+outline: 0 none;	}
 a, a:hover, a:focus {
 	outline: 0 none;
 	text-decoration: none;
