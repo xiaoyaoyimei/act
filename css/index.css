@@ -72,7 +72,7 @@ img {
 	margin-left: 1%;
 }
 .f_bd_wrap {
-	color: #1ac5d8;
+	color: #27b7c3;
 	font-size: 16px;
 	left: -5%;
 	margin-left: auto;
@@ -118,7 +118,7 @@ img {
 	-moz-border-right-colors: none;
 	-moz-border-top-colors: none;
 	background: transparent none repeat scroll 0 0;
-	border-color: currentcolor currentcolor #1ac5d8;
+	border-color: currentcolor currentcolor #27b7c3;
 	border-image: none;
 	border-style: none none solid;
 	border-width: 0 0 1px;
@@ -130,7 +130,8 @@ img {
 	line-height: 30px;
 }
 .btn-tk {
-	background: #1ac5d8 none repeat scroll 0 0;
+	height:40px;
+	background: #27b7c3 none repeat scroll 0 0;
 	color: #050f12;
 	font-size: 20px;
 	width: 215px;
@@ -152,10 +153,11 @@ img {
 	position: relative;
 	width: 300px;
 }
-.titie-list img {
+.title-list img {
 	display: inline-block;
+	cursor:pointer
 }
-.active .ranking {
+.title-f .ranking {
 	left: -5px;
 	position: relative;
 	z-index: 2
@@ -163,7 +165,7 @@ img {
 .ranking {
 	float: left;
 }
-.active .all-fan {
+.title-f .all-fan {
 	right: 0;
 	top: 7px;
 }
@@ -172,14 +174,17 @@ img {
 	right: -4px;
 	top: -6px;
 }
-.all-ping-wrap {
+
+.cont{
 	background: rgba(0, 0, 0, 0) url("../img/all-fan-bg.png") repeat scroll 0 0;
 	border-color: #00d0e7;
 	border-style: solid;
 	border-width: 0 1px 1px;
 	box-shadow: 1px 7px 12px 2px #00d0e7;
-	margin-top: -5px;
-}
+	margin-top: -5px;}
+	.cont-wrap:last-child,.title-list  .title-tab:last-child{
+		display:none;}
+		
 .all-fw {
 	margin-top: 5px;
 	padding: 10px;
@@ -236,11 +241,11 @@ img {
 }
 .btn-next {
 	background: transparent none repeat scroll 0 0;
-	border-color: #1ac5d8 currentcolor currentcolor;
+	border-color: #27b7c3 currentcolor currentcolor;
 	border-image: none;
 	border-style: solid none none;
 	border-width: 1px 0 0;
-	color: #1ac5d8;
+	color: #27b7c3;
 	height: 70px;
 	line-height: 70px;
 	width: 100%;
@@ -256,7 +261,7 @@ img {
 	padding-top: 20px;
 }
 .tb-phb th {
-	color: #1ac5d8
+	color: #27b7c3
 }
 .tb-phb td {
 	color: #fff;
@@ -264,8 +269,9 @@ img {
 	line-height: 42px;
 }
 .mt35 {
-	margin-top: 45px;
-	display: block
+	margin-top:29px;
+	display: block;
+	height:146px;
 }
 
 
@@ -542,4 +548,5 @@ transform: scale(0);
 .icon-uploadsp{
 	background:url(../img/uploadsp.png) scroll no-repeat 0 0;
 	width:44px;
-	height:35px;}
+	height:35px;
+	display:inline-block;}
