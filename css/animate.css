@@ -916,8 +916,8 @@
 
 @-webkit-keyframes bounceInRight {
   0%, 60%, 75%, 90%, 100% {
-    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.115, 0.510, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.115, 0.510, 0.355, 1.000);
   }
 
   0% {
