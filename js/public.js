@@ -1,6 +1,6 @@
 $(function(){
 	$('.cloose-tc button').click(function(){
-		$(this).parent().fadeOut();
+		$(this).parent().css("visibility","hidden");
 		})
 		$('.btn-tk').click(function(e){
 			e.preventDefault();
