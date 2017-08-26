@@ -25,8 +25,8 @@ img {
 	top: 0;
 }
 .tk_strat {
-	bottom: 15px;
-	left: 0;
+	top: 81%;
+	left: 15%;
 	position: absolute;
 }
 .tk_strat span {
@@ -64,7 +64,7 @@ img {
 }
 .huodong {
 	align-items: center;
-	background: url("../img/hd-bg.png") no-repeat scroll 0 0;
+
 	bottom: -61px;
 	display: flex;
 	height: 170px;
@@ -76,6 +76,8 @@ img {
 	text-align: center;
 	width: 474px;
 }
+.huodong>img{
+	position:absolute;}
 .f_bd_wrap {
 	color: #27b7c3;
 	font-size: 16px;
@@ -212,6 +214,7 @@ img {
 	margin-right: auto;
 	text-align: left;
 	width: 80px;
+	cursor:pointer;
 }
 .all-ping-list li h6 {
 	font-size: 14px;
@@ -221,14 +224,21 @@ img {
 .all-ping-list li img {
 	margin-bottom: 15px;
 }
-.icon-love {
-	background: rgba(0, 0, 0, 0) url("../img/love.png") no-repeat scroll 0 0;
-	display: inline-block;
+.all-ping-list i {
+	cursor: pointer;
 	height: 18px;
+	width: 18px;
+	display: inline-block;
 	margin-right: 8px;
 	position: relative;
+}
+.icon-love {
+	background: url("../img/love.png") no-repeat scroll 0 0;
 	top: 4px;
-	width: 18px;
+}
+.all-ping-list .icon-love-outline-min {
+	background: url("../img/love-outline-min.png") no-repeat scroll 0 0;
+	top: 7px;
 }
 .btn-next {
 	background: transparent none repeat scroll 0 0;
@@ -343,9 +353,9 @@ img {
 .index_6_div .index_6_x {
 	float: left;
 	position: relative;
-	border:2px solid #4fa9b1;
+	border: 2px solid #4fa9b1;
 	margin-top: 35px;
-	background:#000;
+	background: #000;
 }
 .index_6_div .index_6_x .fs {
 	position: absolute;
@@ -581,9 +591,7 @@ img {
 }
 }
  @media screen and (min-width: 768px) {
-.tk_strat {
-	left: 15%;
-}
+
 .tk_strat span {
 	font-size: 12px;
 	font-size: 18px;
@@ -608,11 +616,19 @@ img {
 	padding-right: 15px;
 	padding-top: 220px;
 }
+.huodong a{
+		position:relative;
+		}
+		.huodong a:first-child{
+			margin-right:10px;}
  @media screen and (max-width: 768px) {
+	 .tk_strat {
+	top: 490px;
+	left:0
+}
 .index_4_wrap {
 	padding-top: 135px;
 }
-
 .v-wrap {
 	width: 320px;
 	height: 215px;
@@ -621,7 +637,8 @@ img {
 	padding-top: 110px;
 }
 .huodong a {
-	width: 120px
+	width: 120px;
+
 }
 .huodong {
 	width: 320px;
